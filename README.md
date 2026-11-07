@@ -12,6 +12,12 @@ Business referents and developers often track the same request differently. Prio
 
 ## Solution design
 
+**Original Solution Designer export:**
+
+[![Open the full-size Delivery Bridge Solution Designer diagram](docs/diagrams/solution-design.png)](docs/diagrams/solution-design.png)
+
+This detailed diagram is the proposed Foundry solution design. It groups the design into five areas: data and build orchestration; ontology and controlled changes; applications and reporting; AIP and human review; workflow and operations. The linked PNG is 2048 × 1299 pixels. Its resolution is suitable for a portfolio, but the diagram is dense: small labels are hard to read in the README preview. Click the image to open it at full size and zoom in. The companion [workflow.svg](docs/diagrams/workflow.svg) presents the request lifecycle in a simpler, more readable view.
+
 ```mermaid
 flowchart TD
     U["Referents · developers · testers · managers"] --> I["Request intake and reference data"]
@@ -26,7 +32,7 @@ flowchart TD
     M --> O
 ```
 
-The editable [Solution Designer JSON](docs/diagrams/solution-design.json) accompanies the architecture and can be imported into the matching tool. See [the component and data flow details](docs/architecture.md).
+The editable [Solution Designer JSON](docs/diagrams/solution-design.json) accompanies the diagram and can be imported into a compatible Solution Designer. Importing the JSON draws the design; it does not provision Foundry resources. See [the component and data flow details](docs/architecture.md).
 
 ## What the design covers
 
@@ -79,7 +85,8 @@ A fictional team receives a request for an inventory dashboard. A manager assign
 | --- | --- |
 | `docs/diagrams/solution-design.png` | Full-resolution architecture diagram |
 | `docs/diagrams/solution-design.json` | Editable Solution Designer diagram |
-| `docs/diagrams/workflow.svg` | Workflow picture from intake through acceptance |
+| `docs/diagrams/solution-design.png` | Original detailed Solution Designer diagram |
+| `docs/diagrams/workflow.svg` | Readable companion workflow graphic from intake through acceptance |
 | `docs/architecture.md` | Layers, component roles and engineering decisions |
 | `docs/ontology.md` | Object grains, links, keys and data ownership |
 | `docs/workflows.md` | States, actions, calculations and completion rules |
