@@ -43,6 +43,8 @@ Business referents define needs and accept delivery; developers implement reques
 
 ## End-to-end workflow
 
+![Delivery Bridge workflow diagram](docs/diagrams/workflow.svg)
+
 ```mermaid
 flowchart TD
     I["Referent submits request"] --> B["Triage and backlog"]
@@ -77,6 +79,7 @@ A fictional team receives a request for an inventory dashboard. A manager assign
 | --- | --- |
 | `docs/diagrams/solution-design.png` | Full-resolution architecture diagram |
 | `docs/diagrams/solution-design.json` | Editable Solution Designer diagram |
+| `docs/diagrams/workflow.svg` | Workflow picture from intake through acceptance |
 | `docs/architecture.md` | Layers, component roles and engineering decisions |
 | `docs/ontology.md` | Object grains, links, keys and data ownership |
 | `docs/workflows.md` | States, actions, calculations and completion rules |
@@ -94,6 +97,28 @@ Importing the JSON draws the solution architecture; it does not create Foundry r
 ## Technology coverage
 
 Ontology Manager, Workshop, Slate, Action Types, PySpark, TypeScript, Code Repositories, Pipeline Builder, Scheduler, Automate, Quiver, Notepad, Gantt Chart, AIP Chatbot, AIP Analyst, AIP Logic and LLMs.
+
+## Foundry tools and their roles
+
+These are proposed components in the conceptual design; they are not claims that a production Foundry environment has already been configured.
+
+| Tool | Role in Delivery Bridge |
+| --- | --- |
+| Ontology Manager | Model requests, teams, delivery cycles, capacity, acceptance criteria and test evidence as linked objects. |
+| Pipeline Builder | Ingest, standardize and validate request, team and capacity inputs. |
+| Code Repository (PySpark / TypeScript) | Version transformations, validation functions and controlled business logic. |
+| Scheduler | Refresh curated data and dependent metrics on a defined cadence. |
+| Action Types | Create and assign requests, prioritize work, plan cycles, record test results and accept delivery. |
+| Workshop | Provide the primary manager, developer and reviewer workspace. |
+| Slate | Offer a focused request portal where a custom interface is useful. |
+| Gantt chart | Display planned development dates, dependencies and three-week cycle capacity. |
+| Quiver | Analyze throughput, cycle time, blocked work, rework and capacity utilization. |
+| Notepad | Capture cycle decisions, blockers, test evidence and handover notes. |
+| AIP Chatbot | Answer grounded questions about authorized request and delivery records. |
+| AIP Analyst | Investigate bottlenecks and workload patterns using accessible data. |
+| AIP Logic | Draft acceptance criteria and test scenarios for human review. |
+| LLM | Provide the approved model runtime behind AIP features; outputs require grounding and evaluation. |
+| Automate | Send deduplicated notifications and escalations after approved workflow events. |
 
 ## Contributing
 
