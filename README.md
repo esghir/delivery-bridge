@@ -2,7 +2,7 @@
 
 Delivery Bridge is a proposed Palantir Foundry solution for tracking requests from intake through development, testing and business acceptance, with capacity planning, delivery analytics and human-reviewed AI test drafting.
 
-**Architecture portfolio · Palantir Foundry · Ontology · AIP · Human-reviewed decisions**
+**Palantir Foundry · Ontology Manager · AIP · Workshop · Quiver · Slate · Notepad · Automate · Gantt chart · TypeScript · Action Types**
 
 ## Why this project exists
 
