@@ -1,0 +1,1189 @@
+{
+  "version": "0",
+  "fileName": "Delivery Bridge - Solution Design",
+  "diagramDescription": "Operational workflow connecting business referents and developers for visibility, team performance and work quality. Conceptual portfolio solution design using a neutral project name; not an as-built company deployment inventory. Every component description identifies its evidence basis. All detailed models, sources, rules, interfaces and AI capabilities require project validation. AIT analyser is interpreted as AIP Analyst. Generic custom cards represent tools whose native type was not present in the supplied example. No live resource RIDs. Connections show data, invocation, navigation or governance relationships as labelled.",
+  "nodes": [
+    {
+      "id": "ri.solution-design.main.node.group.7ca725b3-0149-46fa-8ccc-1afb6946e525",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "name": "01 | Data and Build Orchestration",
+        "color": "rgba(152,184,193,0.3)",
+        "tags": [],
+        "width": 500,
+        "height": 1790,
+        "dataSetters": {}
+      },
+      "type": "customGroup",
+      "width": 500,
+      "height": 1790,
+      "zIndex": 0,
+      "measured": {
+        "width": 500,
+        "height": 1790
+      }
+    },
+    {
+      "id": "ri.solution-design.main.node.group.70b83783-00da-4349-a2f9-a365025f0074",
+      "position": {
+        "x": 580,
+        "y": 0
+      },
+      "data": {
+        "name": "02 | Ontology and Controlled Changes",
+        "color": "rgba(232,197,163,0.3)",
+        "tags": [],
+        "width": 500,
+        "height": 1790,
+        "dataSetters": {}
+      },
+      "type": "customGroup",
+      "width": 500,
+      "height": 1790,
+      "zIndex": 0,
+      "measured": {
+        "width": 500,
+        "height": 1790
+      }
+    },
+    {
+      "id": "ri.solution-design.main.node.group.791a9ead-584d-4879-8286-ea1f6d5bc224",
+      "position": {
+        "x": 1160,
+        "y": 0
+      },
+      "data": {
+        "name": "03 | Applications and Reporting",
+        "color": "rgba(98,217,107,0.3)",
+        "tags": [],
+        "width": 500,
+        "height": 1790,
+        "dataSetters": {}
+      },
+      "type": "customGroup",
+      "width": 500,
+      "height": 1790,
+      "zIndex": 0,
+      "measured": {
+        "width": 500,
+        "height": 1790
+      }
+    },
+    {
+      "id": "ri.solution-design.main.node.group.059cbe5d-3951-4e01-8a7e-7980e36e2005",
+      "position": {
+        "x": 1740,
+        "y": 0
+      },
+      "data": {
+        "name": "04 | AIP and Human Review",
+        "color": "rgba(180,150,220,0.3)",
+        "tags": [],
+        "width": 500,
+        "height": 1790,
+        "dataSetters": {}
+      },
+      "type": "customGroup",
+      "width": 500,
+      "height": 1790,
+      "zIndex": 0,
+      "measured": {
+        "width": 500,
+        "height": 1790
+      }
+    },
+    {
+      "id": "ri.solution-design.main.node.group.63b88445-b261-4d30-b807-3fcc1a16ef0b",
+      "position": {
+        "x": 2320,
+        "y": 0
+      },
+      "data": {
+        "name": "05 | Workflow and Operations",
+        "color": "rgba(130,165,230,0.3)",
+        "tags": [],
+        "width": 500,
+        "height": 1790,
+        "dataSetters": {}
+      },
+      "type": "customGroup",
+      "width": 500,
+      "height": 1790,
+      "zIndex": 0,
+      "measured": {
+        "width": 500,
+        "height": 1790
+      }
+    },
+    {
+      "id": "ri.solution-design.main.node.abstract_data_sourcing.3ab925f7-17cd-49a5-81a7-726c974dd7e6",
+      "position": {
+        "x": 32,
+        "y": 80
+      },
+      "data": {
+        "type": "abstract_data_sourcing",
+        "name": "Use Case and Team Inputs",
+        "description": "Proposed source contract. Candidate inputs: existing request register, business referents, development teams and capacity calendar. Intake becomes an application action. Actual source systems and migration method require confirmation.",
+        "tags": [],
+        "icon": "data-connection",
+        "attributeGroups": [],
+        "width": 436,
+        "height": 220,
+        "dataSetters": {}
+      },
+      "type": "foundryComponent",
+      "width": 436,
+      "height": 220,
+      "parentId": "ri.solution-design.main.node.group.7ca725b3-0149-46fa-8ccc-1afb6946e525",
+      "zIndex": 1,
+      "measured": {
+        "width": 436,
+        "height": 220
+      }
+    },
+    {
+      "id": "ri.solution-design.main.node.builder.e375ce94-85c4-44a5-b691-3180fcaa8e77",
+      "position": {
+        "x": 32,
+        "y": 370
+      },
+      "data": {
+        "type": "builder",
+        "name": "Pipeline Builder | Request Staging",
+        "description": "Proposed extension. Normalize legacy statuses, request identifiers, team mappings and dates. Standardize imported records and reference data before code-based validation.",
+        "tags": [],
+        "icon": "annotation",
+        "attributeGroups": [],
+        "width": 436,
+        "height": 220,
+        "dataSetters": {}
+      },
+      "type": "foundryComponent",
+      "width": 436,
+      "height": 220,
+      "parentId": "ri.solution-design.main.node.group.7ca725b3-0149-46fa-8ccc-1afb6946e525",
+      "zIndex": 1,
+      "measured": {
+        "width": 436,
+        "height": 220
+      }
+    },
+    {
+      "id": "ri.solution-design.main.node.repos.709e1168-409c-4f32-b549-e4bb97f5a8bc",
+      "position": {
+        "x": 32,
+        "y": 660
+      },
+      "data": {
+        "type": "repos",
+        "name": "Code Repository | PySpark",
+        "description": "PySpark included in the original brief; repository design proposed. Deduplicate imported requests and validate owner/project mappings. Prepare reference data and historical metrics. Any downstream batch metrics from operational edits require an explicit supported export or materialization.",
+        "tags": [],
+        "icon": "annotation",
+        "attributeGroups": [],
+        "width": 436,
+        "height": 220,
+        "dataSetters": {}
+      },
+      "type": "foundryComponent",
+      "width": 436,
+      "height": 220,
+      "parentId": "ri.solution-design.main.node.group.7ca725b3-0149-46fa-8ccc-1afb6946e525",
+      "zIndex": 1,
+      "measured": {
+        "width": 436,
+        "height": 220
+      }
+    },
+    {
+      "id": "ri.solution-design.main.node.dataset.68cdf7a5-f20a-4d0f-a9f8-b3c2ae2383cc",
+      "position": {
+        "x": 32,
+        "y": 950
+      },
+      "data": {
+        "type": "dataset",
+        "name": "Curated Request and Reference Datasets",
+        "description": "Proposed extension. Seed requests and maintain team/reference inputs. Keep imported source fields separate from action-managed status, assignment and approval fields; refresh must not reset operational changes.",
+        "tags": [],
+        "icon": "annotation",
+        "attributeGroups": [],
+        "width": 436,
+        "height": 220,
+        "dataSetters": {}
+      },
+      "type": "foundryComponent",
+      "width": 436,
+      "height": 220,
+      "parentId": "ri.solution-design.main.node.group.7ca725b3-0149-46fa-8ccc-1afb6946e525",
+      "zIndex": 1,
+      "measured": {
+        "width": 436,
+        "height": 220
+      }
+    },
+    {
+      "id": "ri.solution-design.main.node.custom.4a2e7356-244e-4b80-b873-29490db42fa8",
+      "position": {
+        "x": 32,
+        "y": 1240
+      },
+      "data": {
+        "type": "custom",
+        "name": "Scheduler | Data Refresh",
+        "description": "Scheduler included in the original brief; configuration proposed. Run dependency-aware builds for reference inputs and batch reporting. Configure freshness and retry policies. Business deadlines and three-week planning reminders belong to Automate.",
+        "tags": [],
+        "icon": "annotation",
+        "attributeGroups": [],
+        "width": 436,
+        "height": 220,
+        "dataSetters": {}
+      },
+      "type": "foundryComponent",
+      "width": 436,
+      "height": 220,
+      "parentId": "ri.solution-design.main.node.group.7ca725b3-0149-46fa-8ccc-1afb6946e525",
+      "zIndex": 1,
+      "measured": {
+        "width": 436,
+        "height": 220
+      }
+    },
+    {
+      "id": "ri.solution-design.main.node.custom.3711ccb9-b184-4ba9-9d89-2166bdfaf23c",
+      "position": {
+        "x": 32,
+        "y": 1530
+      },
+      "data": {
+        "type": "custom",
+        "name": "Data Quality and Event History",
+        "description": "Proposed extension. Validate unique request IDs, valid owners and dates. Capture status transition events through actions so cycle time and rework metrics can be calculated from history rather than current status alone.",
+        "tags": [],
+        "icon": "annotation",
+        "attributeGroups": [],
+        "width": 436,
+        "height": 220,
+        "dataSetters": {}
+      },
+      "type": "foundryComponent",
+      "width": 436,
+      "height": 220,
+      "parentId": "ri.solution-design.main.node.group.7ca725b3-0149-46fa-8ccc-1afb6946e525",
+      "zIndex": 1,
+      "measured": {
+        "width": 436,
+        "height": 220
+      }
+    },
+    {
+      "id": "ri.solution-design.main.node.object.472ca7c9-d28b-4c7a-ba5a-086a72d32fcb",
+      "position": {
+        "x": 32,
+        "y": 80
+      },
+      "data": {
+        "type": "object",
+        "name": "Ontology Manager | Delivery Model",
+        "description": "Ontology Manager included in the original brief; object schema proposed. Proposed types: UseCaseRequest, Project, Person, Team, PlanningCycle, CapacityAllocation, AcceptanceCriterion, TestScenario and StatusEvent. Link referent, assignee, cycle and test evidence.",
+        "tags": [],
+        "icon": "cube",
+        "attributeGroups": [],
+        "width": 436,
+        "height": 220,
+        "dataSetters": {}
+      },
+      "type": "foundryComponent",
+      "width": 436,
+      "height": 220,
+      "parentId": "ri.solution-design.main.node.group.70b83783-00da-4349-a2f9-a365025f0074",
+      "zIndex": 1,
+      "measured": {
+        "width": 436,
+        "height": 220
+      }
+    },
+    {
+      "id": "ri.solution-design.main.node.object.9140a97d-3057-4931-919f-ed9674b16eec",
+      "position": {
+        "x": 32,
+        "y": 370
+      },
+      "data": {
+        "type": "object",
+        "name": "Request, Capacity and Test Objects",
+        "description": "Proposed extension. Request holds priority, owner, status, remaining effort and dates. Cycle capacity accounts for leave and other commitments. Acceptance criteria link to reviewed test scenarios and execution results.",
+        "tags": [],
+        "icon": "cube",
+        "attributeGroups": [],
+        "width": 436,
+        "height": 220,
+        "dataSetters": {}
+      },
+      "type": "foundryComponent",
+      "width": 436,
+      "height": 220,
+      "parentId": "ri.solution-design.main.node.group.70b83783-00da-4349-a2f9-a365025f0074",
+      "zIndex": 1,
+      "measured": {
+        "width": 436,
+        "height": 220
+      }
+    },
+    {
+      "id": "ri.solution-design.main.node.custom.230c4beb-dc7a-4668-adf8-5f926300e781",
+      "position": {
+        "x": 32,
+        "y": 660
+      },
+      "data": {
+        "type": "custom",
+        "name": "Action Types | Request Lifecycle",
+        "description": "Proposed extension. CreateRequest, AssignDeveloper, Prioritize, PlanCycle, UpdateProgress, SubmitForTest, RecordTestResult and AcceptDelivery. Enforce role and state rules; create transition history with each status change.",
+        "tags": [],
+        "icon": "annotation",
+        "attributeGroups": [],
+        "width": 436,
+        "height": 220,
+        "dataSetters": {}
+      },
+      "type": "foundryComponent",
+      "width": 436,
+      "height": 220,
+      "parentId": "ri.solution-design.main.node.group.70b83783-00da-4349-a2f9-a365025f0074",
+      "zIndex": 1,
+      "measured": {
+        "width": 436,
+        "height": 220
+      }
+    },
+    {
+      "id": "ri.solution-design.main.node.repos.da03e89a-eeca-4be2-aaeb-d56411a91722",
+      "position": {
+        "x": 32,
+        "y": 950
+      },
+      "data": {
+        "type": "repos",
+        "name": "Code Repository | TypeScript Functions",
+        "description": "TypeScript included in the original brief; function design proposed. Validate transitions and calculate remaining workload, capacity utilization and due-date indicators from current objects. Acceptance requires verified tests and referent approval; reject invalid writes.",
+        "tags": [],
+        "icon": "annotation",
+        "attributeGroups": [],
+        "width": 436,
+        "height": 220,
+        "dataSetters": {}
+      },
+      "type": "foundryComponent",
+      "width": 436,
+      "height": 220,
+      "parentId": "ri.solution-design.main.node.group.70b83783-00da-4349-a2f9-a365025f0074",
+      "zIndex": 1,
+      "measured": {
+        "width": 436,
+        "height": 220
+      }
+    },
+    {
+      "id": "ri.solution-design.main.node.object.1b2ade7a-4415-44c4-9bd8-a78a46473b34",
+      "position": {
+        "x": 32,
+        "y": 1240
+      },
+      "data": {
+        "type": "object",
+        "name": "AI Drafts and Reviewed Test Scenarios",
+        "description": "Proposed extension. Persist triage suggestions and test drafts with requirement links, model/prompt version and reviewer decisions. An AI draft is neither a passed test nor business acceptance.",
+        "tags": [],
+        "icon": "cube",
+        "attributeGroups": [],
+        "width": 436,
+        "height": 220,
+        "dataSetters": {}
+      },
+      "type": "foundryComponent",
+      "width": 436,
+      "height": 220,
+      "parentId": "ri.solution-design.main.node.group.70b83783-00da-4349-a2f9-a365025f0074",
+      "zIndex": 1,
+      "measured": {
+        "width": 436,
+        "height": 220
+      }
+    },
+    {
+      "id": "ri.solution-design.main.node.workshop.c29b32fa-e59d-4df1-9a75-c8aa004b97bd",
+      "position": {
+        "x": 32,
+        "y": 80
+      },
+      "data": {
+        "type": "workshop",
+        "name": "Workshop | Delivery Workspace",
+        "description": "Workshop included in the original brief; page layout proposed. Referent intake, backlog triage, developer progress, test review and manager capacity screens. Present current ontology state and invoke authorized actions.",
+        "tags": [],
+        "icon": "annotation",
+        "attributeGroups": [],
+        "width": 436,
+        "height": 220,
+        "dataSetters": {}
+      },
+      "type": "foundryComponent",
+      "width": 436,
+      "height": 220,
+      "parentId": "ri.solution-design.main.node.group.791a9ead-584d-4879-8286-ea1f6d5bc224",
+      "zIndex": 1,
+      "measured": {
+        "width": 436,
+        "height": 220
+      }
+    },
+    {
+      "id": "ri.solution-design.main.node.custom.41342231-dd6d-4347-8ae1-21cbf94f93bc",
+      "position": {
+        "x": 32,
+        "y": 370
+      },
+      "data": {
+        "type": "custom",
+        "name": "Slate | Use Case Portal",
+        "description": "Slate included in the original brief; portal layout proposed. Custom landing page for project navigation, request context and links to Workshop. Reuse ontology-backed data and controlled actions rather than implementing a separate workflow engine.",
+        "tags": [],
+        "icon": "annotation",
+        "attributeGroups": [],
+        "width": 436,
+        "height": 220,
+        "dataSetters": {}
+      },
+      "type": "foundryComponent",
+      "width": 436,
+      "height": 220,
+      "parentId": "ri.solution-design.main.node.group.791a9ead-584d-4879-8286-ea1f6d5bc224",
+      "zIndex": 1,
+      "measured": {
+        "width": 436,
+        "height": 220
+      }
+    },
+    {
+      "id": "ri.solution-design.main.node.custom.989c5161-a3fe-4259-8fd7-6e41890798d3",
+      "position": {
+        "x": 32,
+        "y": 660
+      },
+      "data": {
+        "type": "custom",
+        "name": "Gantt Chart | Three-Week Delivery Plan",
+        "description": "Proposed extension. Display selected requests by start/end dates and assignee. Review dependencies and capacity during three-week planning. Date changes use actions. This cadence is a proposed extension for this project.",
+        "tags": [],
+        "icon": "annotation",
+        "attributeGroups": [],
+        "width": 436,
+        "height": 220,
+        "dataSetters": {}
+      },
+      "type": "foundryComponent",
+      "width": 436,
+      "height": 220,
+      "parentId": "ri.solution-design.main.node.group.791a9ead-584d-4879-8286-ea1f6d5bc224",
+      "zIndex": 1,
+      "measured": {
+        "width": 436,
+        "height": 220
+      }
+    },
+    {
+      "id": "ri.solution-design.main.node.quiver.b7f98acd-5199-445c-a56f-9a65522144c3",
+      "position": {
+        "x": 32,
+        "y": 950
+      },
+      "data": {
+        "type": "quiver",
+        "name": "Quiver | Team and Quality Metrics",
+        "description": "Proposed extension. Analyze completed requests, cycle time, blocked duration, rework, test pass rate and capacity utilization. Use defined periods and event history; account for effort and case complexity.",
+        "tags": [],
+        "icon": "annotation",
+        "attributeGroups": [],
+        "width": 436,
+        "height": 220,
+        "dataSetters": {}
+      },
+      "type": "foundryComponent",
+      "width": 436,
+      "height": 220,
+      "parentId": "ri.solution-design.main.node.group.791a9ead-584d-4879-8286-ea1f6d5bc224",
+      "zIndex": 1,
+      "measured": {
+        "width": 436,
+        "height": 220
+      }
+    },
+    {
+      "id": "ri.solution-design.main.node.notepad.473560ba-9378-49cc-9590-d1209bde142f",
+      "position": {
+        "x": 32,
+        "y": 1240
+      },
+      "data": {
+        "type": "notepad",
+        "name": "Notepad | Cycle Review and Handover",
+        "description": "Proposed extension. Template progress, blockers, workload, test evidence and accepted deliverables. Include a cycle identifier and as-of timestamp; support review meetings and handover.",
+        "tags": [],
+        "icon": "annotation",
+        "attributeGroups": [],
+        "width": 436,
+        "height": 220,
+        "dataSetters": {}
+      },
+      "type": "foundryComponent",
+      "width": 436,
+      "height": 220,
+      "parentId": "ri.solution-design.main.node.group.791a9ead-584d-4879-8286-ea1f6d5bc224",
+      "zIndex": 1,
+      "measured": {
+        "width": 436,
+        "height": 220
+      }
+    },
+    {
+      "id": "ri.solution-design.main.node.custom.0f254204-1ff6-4312-ace0-0a70a2d5f56b",
+      "position": {
+        "x": 32,
+        "y": 80
+      },
+      "data": {
+        "type": "custom",
+        "name": "AIP Chatbot | Request Assistant",
+        "description": "Proposed extension. Answer authorized questions about request status, owners and blockers. Guide referents through requirements and draft new requests; submit changes only through explicit authorized actions.",
+        "tags": [],
+        "icon": "annotation",
+        "attributeGroups": [],
+        "width": 436,
+        "height": 220,
+        "dataSetters": {}
+      },
+      "type": "foundryComponent",
+      "width": 436,
+      "height": 220,
+      "parentId": "ri.solution-design.main.node.group.059cbe5d-3951-4e01-8a7e-7980e36e2005",
+      "zIndex": 1,
+      "measured": {
+        "width": 436,
+        "height": 220
+      }
+    },
+    {
+      "id": "ri.solution-design.main.node.aip_analyst.155eeeb1-5d76-4664-8f0c-fb81e7abcdc4",
+      "position": {
+        "x": 32,
+        "y": 370
+      },
+      "data": {
+        "type": "aip_analyst",
+        "name": "AIP Analyst | Bottleneck Investigation",
+        "description": "Proposed extension. Explore delay patterns, workload imbalance and rework across accessible requests and event history. Show traceable data findings; separate observed associations from causal claims.",
+        "tags": [],
+        "icon": "annotation",
+        "attributeGroups": [],
+        "width": 436,
+        "height": 220,
+        "dataSetters": {}
+      },
+      "type": "foundryComponent",
+      "width": 436,
+      "height": 220,
+      "parentId": "ri.solution-design.main.node.group.059cbe5d-3951-4e01-8a7e-7980e36e2005",
+      "zIndex": 1,
+      "measured": {
+        "width": 436,
+        "height": 220
+      }
+    },
+    {
+      "id": "ri.solution-design.main.node.aip.42f2753d-d969-4dcd-a562-7a8c11be29f7",
+      "position": {
+        "x": 32,
+        "y": 660
+      },
+      "data": {
+        "type": "aip",
+        "name": "AIP Logic | Triage and Test Drafting",
+        "description": "Proposed extension. Suggest categorization and acceptance-criteria improvements. When ready for testing, draft steps and expected results linked to criteria. Validate structured output and route to human review.",
+        "tags": [],
+        "icon": "clean",
+        "attributeGroups": [],
+        "width": 436,
+        "height": 220,
+        "dataSetters": {}
+      },
+      "type": "foundryComponent",
+      "width": 436,
+      "height": 220,
+      "parentId": "ri.solution-design.main.node.group.059cbe5d-3951-4e01-8a7e-7980e36e2005",
+      "zIndex": 1,
+      "measured": {
+        "width": 436,
+        "height": 220
+      }
+    },
+    {
+      "id": "ri.solution-design.main.node.aip.534d4803-2c97-42a0-94af-2577bef8878f",
+      "position": {
+        "x": 32,
+        "y": 950
+      },
+      "data": {
+        "type": "aip",
+        "name": "LLM | Approved Model Runtime",
+        "description": "Proposed extension. Platform-supported model supplies language reasoning for Chatbot, Analyst and Logic. Limit context to authorized request evidence and evaluate groundedness and test usefulness before release.",
+        "tags": [],
+        "icon": "clean",
+        "attributeGroups": [],
+        "width": 436,
+        "height": 220,
+        "dataSetters": {}
+      },
+      "type": "foundryComponent",
+      "width": 436,
+      "height": 220,
+      "parentId": "ri.solution-design.main.node.group.059cbe5d-3951-4e01-8a7e-7980e36e2005",
+      "zIndex": 1,
+      "measured": {
+        "width": 436,
+        "height": 220
+      }
+    },
+    {
+      "id": "ri.solution-design.main.node.custom.9b283e33-4f65-4a3f-bfae-22043d9ac4c7",
+      "position": {
+        "x": 32,
+        "y": 1240
+      },
+      "data": {
+        "type": "custom",
+        "name": "Tester and Referent Validation",
+        "description": "Proposed extension. Tester edits scenarios, checks requirement coverage and executes tests. Failed tests or gaps return to development. Referent confirms acceptance only after required tests pass.",
+        "tags": [],
+        "icon": "annotation",
+        "attributeGroups": [],
+        "width": 436,
+        "height": 220,
+        "dataSetters": {}
+      },
+      "type": "foundryComponent",
+      "width": 436,
+      "height": 220,
+      "parentId": "ri.solution-design.main.node.group.059cbe5d-3951-4e01-8a7e-7980e36e2005",
+      "zIndex": 1,
+      "measured": {
+        "width": 436,
+        "height": 220
+      }
+    },
+    {
+      "id": "ri.solution-design.main.node.custom.0269d48d-4eb7-4116-a887-3592b8fcc5d0",
+      "position": {
+        "x": 32,
+        "y": 80
+      },
+      "data": {
+        "type": "custom",
+        "name": "Automate | Assignment and Escalation",
+        "description": "Automate included in the original brief; automation rules proposed. Watch ready-for-test, overdue or blocked requests; invoke Logic, notify owners and send cycle digests. Deduplicate triggers and log effects. Approval remains a controlled user action.",
+        "tags": [],
+        "icon": "annotation",
+        "attributeGroups": [],
+        "width": 436,
+        "height": 220,
+        "dataSetters": {}
+      },
+      "type": "foundryComponent",
+      "width": 436,
+      "height": 220,
+      "parentId": "ri.solution-design.main.node.group.63b88445-b261-4d30-b807-3fcc1a16ef0b",
+      "zIndex": 1,
+      "measured": {
+        "width": 436,
+        "height": 220
+      }
+    },
+    {
+      "id": "ri.solution-design.main.node.custom.b0172b2e-93a9-421a-acc1-0f8f9e7e771c",
+      "position": {
+        "x": 32,
+        "y": 370
+      },
+      "data": {
+        "type": "custom",
+        "name": "Delivery Lifecycle",
+        "description": "Proposed extension. Intake -> Triage -> Backlog -> Planned -> Development -> Testing -> Acceptance -> Done. Test failures return to Development. Three-week prioritization is proposed; workflow states require confirmation.",
+        "tags": [],
+        "icon": "annotation",
+        "attributeGroups": [],
+        "width": 436,
+        "height": 220,
+        "dataSetters": {}
+      },
+      "type": "foundryComponent",
+      "width": 436,
+      "height": 220,
+      "parentId": "ri.solution-design.main.node.group.63b88445-b261-4d30-b807-3fcc1a16ef0b",
+      "zIndex": 1,
+      "measured": {
+        "width": 436,
+        "height": 220
+      }
+    },
+    {
+      "id": "ri.solution-design.main.node.user_group.7feb76a4-da00-48e0-be45-44eba6036819",
+      "position": {
+        "x": 32,
+        "y": 660
+      },
+      "data": {
+        "type": "user_group",
+        "name": "Referents / Developers / Testers / Managers",
+        "description": "Proposed extension. Referents clarify needs and accept delivery. Developers implement and report progress. Testers verify evidence. Managers prioritize and balance capacity. Enforce scoped access and action rights.",
+        "tags": [],
+        "icon": "user",
+        "attributeGroups": [],
+        "width": 436,
+        "height": 220,
+        "dataSetters": {}
+      },
+      "type": "foundryComponent",
+      "width": 436,
+      "height": 220,
+      "parentId": "ri.solution-design.main.node.group.63b88445-b261-4d30-b807-3fcc1a16ef0b",
+      "zIndex": 1,
+      "measured": {
+        "width": 436,
+        "height": 220
+      }
+    },
+    {
+      "id": "ri.solution-design.main.node.custom.c829a70d-6f53-4ce1-8769-e565bbc3d8ed",
+      "position": {
+        "x": 32,
+        "y": 950
+      },
+      "data": {
+        "type": "custom",
+        "name": "Health Checks and Release Controls",
+        "description": "Proposed extension. Monitor data refresh, action errors and failed automation effects. Test allowed state transitions, ownership rules and AI output schemas. Version releases and maintain recovery procedures.",
+        "tags": [],
+        "icon": "annotation",
+        "attributeGroups": [],
+        "width": 436,
+        "height": 220,
+        "dataSetters": {}
+      },
+      "type": "foundryComponent",
+      "width": 436,
+      "height": 220,
+      "parentId": "ri.solution-design.main.node.group.63b88445-b261-4d30-b807-3fcc1a16ef0b",
+      "zIndex": 1,
+      "measured": {
+        "width": 436,
+        "height": 220
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "ri.solution-design.main.edge.standard.f6f5b041-2765-4eec-9c5a-c10d41a6a10d",
+      "zIndex": 1,
+      "data": {
+        "label": "Legacy and reference inputs",
+        "edgeSetters": {}
+      },
+      "source": "ri.solution-design.main.node.abstract_data_sourcing.3ab925f7-17cd-49a5-81a7-726c974dd7e6",
+      "target": "ri.solution-design.main.node.builder.e375ce94-85c4-44a5-b691-3180fcaa8e77"
+    },
+    {
+      "id": "ri.solution-design.main.edge.standard.15eacb23-9b92-4bf1-bd59-b4713a241129",
+      "zIndex": 1,
+      "data": {
+        "label": "Standardized staging",
+        "edgeSetters": {}
+      },
+      "source": "ri.solution-design.main.node.builder.e375ce94-85c4-44a5-b691-3180fcaa8e77",
+      "target": "ri.solution-design.main.node.repos.709e1168-409c-4f32-b549-e4bb97f5a8bc"
+    },
+    {
+      "id": "ri.solution-design.main.edge.standard.cc84e355-814e-4382-8886-0fe78deda629",
+      "zIndex": 1,
+      "data": {
+        "label": "Validated seed/reference data",
+        "edgeSetters": {}
+      },
+      "source": "ri.solution-design.main.node.repos.709e1168-409c-4f32-b549-e4bb97f5a8bc",
+      "target": "ri.solution-design.main.node.dataset.68cdf7a5-f20a-4d0f-a9f8-b3c2ae2383cc"
+    },
+    {
+      "id": "ri.solution-design.main.edge.standard.c0291032-11c1-4463-9d16-65255630af37",
+      "zIndex": 1,
+      "data": {
+        "label": "Build targets and dependencies",
+        "edgeSetters": {}
+      },
+      "source": "ri.solution-design.main.node.custom.4a2e7356-244e-4b80-b873-29490db42fa8",
+      "target": "ri.solution-design.main.node.dataset.68cdf7a5-f20a-4d0f-a9f8-b3c2ae2383cc"
+    },
+    {
+      "id": "ri.solution-design.main.edge.standard.d6be351a-1e2e-41a8-b956-925387e87e3e",
+      "zIndex": 1,
+      "data": {
+        "label": "Backing data and links",
+        "edgeSetters": {}
+      },
+      "source": "ri.solution-design.main.node.dataset.68cdf7a5-f20a-4d0f-a9f8-b3c2ae2383cc",
+      "target": "ri.solution-design.main.node.object.472ca7c9-d28b-4c7a-ba5a-086a72d32fcb"
+    },
+    {
+      "id": "ri.solution-design.main.edge.standard.def473f2-c38f-4127-8490-db6c5da6ba8e",
+      "zIndex": 1,
+      "data": {
+        "label": "Import validation",
+        "edgeSetters": {}
+      },
+      "source": "ri.solution-design.main.node.dataset.68cdf7a5-f20a-4d0f-a9f8-b3c2ae2383cc",
+      "target": "ri.solution-design.main.node.custom.3711ccb9-b184-4ba9-9d89-2166bdfaf23c"
+    },
+    {
+      "id": "ri.solution-design.main.edge.standard.4d9f4e86-5790-4b3f-abee-ce06a2de6b8c",
+      "zIndex": 1,
+      "data": {
+        "label": "Data quality failures",
+        "edgeSetters": {}
+      },
+      "source": "ri.solution-design.main.node.custom.3711ccb9-b184-4ba9-9d89-2166bdfaf23c",
+      "target": "ri.solution-design.main.node.custom.c829a70d-6f53-4ce1-8769-e565bbc3d8ed"
+    },
+    {
+      "id": "ri.solution-design.main.edge.standard.93153715-896b-4196-8a12-4035be629381",
+      "zIndex": 1,
+      "data": {
+        "label": "Defines relationships",
+        "edgeSetters": {}
+      },
+      "source": "ri.solution-design.main.node.object.472ca7c9-d28b-4c7a-ba5a-086a72d32fcb",
+      "target": "ri.solution-design.main.node.object.9140a97d-3057-4931-919f-ed9674b16eec"
+    },
+    {
+      "id": "ri.solution-design.main.edge.standard.45aa207b-fb55-4dc7-b825-34927c65824b",
+      "zIndex": 1,
+      "data": {
+        "label": "Current authorized objects",
+        "edgeSetters": {}
+      },
+      "source": "ri.solution-design.main.node.object.472ca7c9-d28b-4c7a-ba5a-086a72d32fcb",
+      "target": "ri.solution-design.main.node.workshop.c29b32fa-e59d-4df1-9a75-c8aa004b97bd"
+    },
+    {
+      "id": "ri.solution-design.main.edge.standard.01dd3ff0-899d-449b-9175-2e64053ade49",
+      "zIndex": 1,
+      "data": {
+        "label": "Intake and workflow changes",
+        "edgeSetters": {}
+      },
+      "source": "ri.solution-design.main.node.workshop.c29b32fa-e59d-4df1-9a75-c8aa004b97bd",
+      "target": "ri.solution-design.main.node.custom.230c4beb-dc7a-4668-adf8-5f926300e781"
+    },
+    {
+      "id": "ri.solution-design.main.edge.standard.84a843c6-3a10-48ce-ad09-5b0b721b5461",
+      "zIndex": 1,
+      "data": {
+        "label": "Function-backed rules",
+        "edgeSetters": {}
+      },
+      "source": "ri.solution-design.main.node.custom.230c4beb-dc7a-4668-adf8-5f926300e781",
+      "target": "ri.solution-design.main.node.repos.da03e89a-eeca-4be2-aaeb-d56411a91722"
+    },
+    {
+      "id": "ri.solution-design.main.edge.standard.0a4671c3-d420-424b-9f91-7fece6fce8b3",
+      "zIndex": 1,
+      "data": {
+        "label": "Edits and transition history",
+        "edgeSetters": {}
+      },
+      "source": "ri.solution-design.main.node.repos.da03e89a-eeca-4be2-aaeb-d56411a91722",
+      "target": "ri.solution-design.main.node.object.472ca7c9-d28b-4c7a-ba5a-086a72d32fcb"
+    },
+    {
+      "id": "ri.solution-design.main.edge.standard.122214a0-9913-4a9a-b88f-e3acc212a5aa",
+      "zIndex": 1,
+      "data": {
+        "label": "Navigate to workspace",
+        "edgeSetters": {}
+      },
+      "source": "ri.solution-design.main.node.custom.41342231-dd6d-4347-8ae1-21cbf94f93bc",
+      "target": "ri.solution-design.main.node.workshop.c29b32fa-e59d-4df1-9a75-c8aa004b97bd"
+    },
+    {
+      "id": "ri.solution-design.main.edge.standard.aa2ad5ab-5dc5-4fc1-974c-d79df02dcb77",
+      "zIndex": 1,
+      "data": {
+        "label": "Planned request objects",
+        "edgeSetters": {}
+      },
+      "source": "ri.solution-design.main.node.object.472ca7c9-d28b-4c7a-ba5a-086a72d32fcb",
+      "target": "ri.solution-design.main.node.custom.989c5161-a3fe-4259-8fd7-6e41890798d3"
+    },
+    {
+      "id": "ri.solution-design.main.edge.standard.7577f86c-52a7-4339-b74a-8349509ad8dd",
+      "zIndex": 1,
+      "data": {
+        "label": "Embedded timeline",
+        "edgeSetters": {}
+      },
+      "source": "ri.solution-design.main.node.custom.989c5161-a3fe-4259-8fd7-6e41890798d3",
+      "target": "ri.solution-design.main.node.workshop.c29b32fa-e59d-4df1-9a75-c8aa004b97bd"
+    },
+    {
+      "id": "ri.solution-design.main.edge.standard.f40ebb69-5028-41c6-9010-d0fd2ebfaad9",
+      "zIndex": 1,
+      "data": {
+        "label": "Requests, capacity and history",
+        "edgeSetters": {}
+      },
+      "source": "ri.solution-design.main.node.object.472ca7c9-d28b-4c7a-ba5a-086a72d32fcb",
+      "target": "ri.solution-design.main.node.quiver.b7f98acd-5199-445c-a56f-9a65522144c3"
+    },
+    {
+      "id": "ri.solution-design.main.edge.standard.d6f3dd52-17eb-4287-917e-e140a2c0f670",
+      "zIndex": 1,
+      "data": {
+        "label": "Embedded metrics",
+        "edgeSetters": {}
+      },
+      "source": "ri.solution-design.main.node.quiver.b7f98acd-5199-445c-a56f-9a65522144c3",
+      "target": "ri.solution-design.main.node.workshop.c29b32fa-e59d-4df1-9a75-c8aa004b97bd"
+    },
+    {
+      "id": "ri.solution-design.main.edge.standard.8d4841f4-d9f7-4570-8829-d31e482aa468",
+      "zIndex": 1,
+      "data": {
+        "label": "Review charts",
+        "edgeSetters": {}
+      },
+      "source": "ri.solution-design.main.node.quiver.b7f98acd-5199-445c-a56f-9a65522144c3",
+      "target": "ri.solution-design.main.node.notepad.473560ba-9378-49cc-9590-d1209bde142f"
+    },
+    {
+      "id": "ri.solution-design.main.edge.standard.e94e1578-52cf-4e66-9903-1bced38cba27",
+      "zIndex": 1,
+      "data": {
+        "label": "Cycle and handover context",
+        "edgeSetters": {}
+      },
+      "source": "ri.solution-design.main.node.object.472ca7c9-d28b-4c7a-ba5a-086a72d32fcb",
+      "target": "ri.solution-design.main.node.notepad.473560ba-9378-49cc-9590-d1209bde142f"
+    },
+    {
+      "id": "ri.solution-design.main.edge.standard.6763bdbf-09c3-44b7-9b3f-93708bd9f002",
+      "zIndex": 1,
+      "data": {
+        "label": "Authorized retrieval tools",
+        "edgeSetters": {}
+      },
+      "source": "ri.solution-design.main.node.object.472ca7c9-d28b-4c7a-ba5a-086a72d32fcb",
+      "target": "ri.solution-design.main.node.custom.0f254204-1ff6-4312-ace0-0a70a2d5f56b"
+    },
+    {
+      "id": "ri.solution-design.main.edge.standard.74b21e52-0d50-486b-bab8-d77d9b521ec9",
+      "zIndex": 1,
+      "data": {
+        "label": "Authorized analysis context",
+        "edgeSetters": {}
+      },
+      "source": "ri.solution-design.main.node.object.472ca7c9-d28b-4c7a-ba5a-086a72d32fcb",
+      "target": "ri.solution-design.main.node.aip_analyst.155eeeb1-5d76-4664-8f0c-fb81e7abcdc4"
+    },
+    {
+      "id": "ri.solution-design.main.edge.standard.2313a9b9-f69e-4451-94a4-2562970f5c0c",
+      "zIndex": 1,
+      "data": {
+        "label": "Request and acceptance criteria",
+        "edgeSetters": {}
+      },
+      "source": "ri.solution-design.main.node.object.472ca7c9-d28b-4c7a-ba5a-086a72d32fcb",
+      "target": "ri.solution-design.main.node.aip.42f2753d-d969-4dcd-a562-7a8c11be29f7"
+    },
+    {
+      "id": "ri.solution-design.main.edge.standard.a6090b4c-c60e-4ddb-a05c-939071a3ce25",
+      "zIndex": 1,
+      "data": {
+        "label": "Model runtime",
+        "edgeSetters": {}
+      },
+      "source": "ri.solution-design.main.node.aip.534d4803-2c97-42a0-94af-2577bef8878f",
+      "target": "ri.solution-design.main.node.custom.0f254204-1ff6-4312-ace0-0a70a2d5f56b"
+    },
+    {
+      "id": "ri.solution-design.main.edge.standard.2d754d60-ed95-4afc-b9ab-15b16f9baa85",
+      "zIndex": 1,
+      "data": {
+        "label": "Model runtime",
+        "edgeSetters": {}
+      },
+      "source": "ri.solution-design.main.node.aip.534d4803-2c97-42a0-94af-2577bef8878f",
+      "target": "ri.solution-design.main.node.aip_analyst.155eeeb1-5d76-4664-8f0c-fb81e7abcdc4"
+    },
+    {
+      "id": "ri.solution-design.main.edge.standard.69063053-b7c1-44db-8837-551f3fccccee",
+      "zIndex": 1,
+      "data": {
+        "label": "Model runtime",
+        "edgeSetters": {}
+      },
+      "source": "ri.solution-design.main.node.aip.534d4803-2c97-42a0-94af-2577bef8878f",
+      "target": "ri.solution-design.main.node.aip.42f2753d-d969-4dcd-a562-7a8c11be29f7"
+    },
+    {
+      "id": "ri.solution-design.main.edge.standard.3dbce828-de25-43af-8ec3-1a616547e5c8",
+      "zIndex": 1,
+      "data": {
+        "label": "Chat interface",
+        "edgeSetters": {}
+      },
+      "source": "ri.solution-design.main.node.custom.0f254204-1ff6-4312-ace0-0a70a2d5f56b",
+      "target": "ri.solution-design.main.node.workshop.c29b32fa-e59d-4df1-9a75-c8aa004b97bd"
+    },
+    {
+      "id": "ri.solution-design.main.edge.standard.586fc61c-55e3-42fa-8ad3-4165407e8193",
+      "zIndex": 1,
+      "data": {
+        "label": "Analysis interface",
+        "edgeSetters": {}
+      },
+      "source": "ri.solution-design.main.node.aip_analyst.155eeeb1-5d76-4664-8f0c-fb81e7abcdc4",
+      "target": "ri.solution-design.main.node.workshop.c29b32fa-e59d-4df1-9a75-c8aa004b97bd"
+    },
+    {
+      "id": "ri.solution-design.main.edge.standard.cf34cf97-14a8-45ff-90f0-41e26f98f687",
+      "zIndex": 1,
+      "data": {
+        "label": "Draft output via configured edits",
+        "edgeSetters": {}
+      },
+      "source": "ri.solution-design.main.node.aip.42f2753d-d969-4dcd-a562-7a8c11be29f7",
+      "target": "ri.solution-design.main.node.object.1b2ade7a-4415-44c4-9bd8-a78a46473b34"
+    },
+    {
+      "id": "ri.solution-design.main.edge.standard.fcaa62fd-47bf-4fc4-a980-a5047d05179b",
+      "zIndex": 1,
+      "data": {
+        "label": "Review and execute",
+        "edgeSetters": {}
+      },
+      "source": "ri.solution-design.main.node.object.1b2ade7a-4415-44c4-9bd8-a78a46473b34",
+      "target": "ri.solution-design.main.node.custom.9b283e33-4f65-4a3f-bfae-22043d9ac4c7"
+    },
+    {
+      "id": "ri.solution-design.main.edge.standard.700b35c4-64e2-4ad4-8829-e7875a89eefd",
+      "zIndex": 1,
+      "data": {
+        "label": "Record test result / accept / return",
+        "edgeSetters": {}
+      },
+      "source": "ri.solution-design.main.node.custom.9b283e33-4f65-4a3f-bfae-22043d9ac4c7",
+      "target": "ri.solution-design.main.node.custom.230c4beb-dc7a-4668-adf8-5f926300e781"
+    },
+    {
+      "id": "ri.solution-design.main.edge.standard.eca6e1ec-0c0c-4801-a274-8971fbe1276a",
+      "zIndex": 1,
+      "data": {
+        "label": "Workflow conditions",
+        "edgeSetters": {}
+      },
+      "source": "ri.solution-design.main.node.object.472ca7c9-d28b-4c7a-ba5a-086a72d32fcb",
+      "target": "ri.solution-design.main.node.custom.0269d48d-4eb7-4116-a887-3592b8fcc5d0"
+    },
+    {
+      "id": "ri.solution-design.main.edge.standard.9913b84d-0707-42bf-a9be-c5538e91d631",
+      "zIndex": 1,
+      "data": {
+        "label": "Invoke triage / test drafting",
+        "edgeSetters": {}
+      },
+      "source": "ri.solution-design.main.node.custom.0269d48d-4eb7-4116-a887-3592b8fcc5d0",
+      "target": "ri.solution-design.main.node.aip.42f2753d-d969-4dcd-a562-7a8c11be29f7"
+    },
+    {
+      "id": "ri.solution-design.main.edge.standard.91332dd2-f117-44f5-b73a-d92dcc794d74",
+      "zIndex": 1,
+      "data": {
+        "label": "Assignment and overdue notices",
+        "edgeSetters": {}
+      },
+      "source": "ri.solution-design.main.node.custom.0269d48d-4eb7-4116-a887-3592b8fcc5d0",
+      "target": "ri.solution-design.main.node.user_group.7feb76a4-da00-48e0-be45-44eba6036819"
+    },
+    {
+      "id": "ri.solution-design.main.edge.standard.1cd1d629-42ca-4f6b-a5f4-db25e8f2fbac",
+      "zIndex": 1,
+      "data": {
+        "label": "Cycle digest template",
+        "edgeSetters": {}
+      },
+      "source": "ri.solution-design.main.node.notepad.473560ba-9378-49cc-9590-d1209bde142f",
+      "target": "ri.solution-design.main.node.custom.0269d48d-4eb7-4116-a887-3592b8fcc5d0"
+    },
+    {
+      "id": "ri.solution-design.main.edge.standard.7c694d00-da85-4e35-a2bc-857144f90826",
+      "zIndex": 1,
+      "data": {
+        "label": "Role-specific workspace",
+        "edgeSetters": {}
+      },
+      "source": "ri.solution-design.main.node.user_group.7feb76a4-da00-48e0-be45-44eba6036819",
+      "target": "ri.solution-design.main.node.workshop.c29b32fa-e59d-4df1-9a75-c8aa004b97bd"
+    },
+    {
+      "id": "ri.solution-design.main.edge.standard.564a0d15-b06e-4de2-a199-44da1940d2bb",
+      "zIndex": 1,
+      "data": {
+        "label": "Enforce lifecycle",
+        "edgeSetters": {}
+      },
+      "source": "ri.solution-design.main.node.custom.230c4beb-dc7a-4668-adf8-5f926300e781",
+      "target": "ri.solution-design.main.node.custom.b0172b2e-93a9-421a-acc1-0f8f9e7e771c"
+    },
+    {
+      "id": "ri.solution-design.main.edge.standard.4999b4a7-82a3-4cc3-af35-de2a1c5fb2f8",
+      "zIndex": 1,
+      "data": {
+        "label": "Record status events",
+        "edgeSetters": {}
+      },
+      "source": "ri.solution-design.main.node.custom.230c4beb-dc7a-4668-adf8-5f926300e781",
+      "target": "ri.solution-design.main.node.custom.3711ccb9-b184-4ba9-9d89-2166bdfaf23c"
+    },
+    {
+      "id": "ri.solution-design.main.edge.standard.91a454a9-d841-4fc8-b1d0-8eeffade853d",
+      "zIndex": 1,
+      "data": {
+        "label": "Effect success / failures",
+        "edgeSetters": {}
+      },
+      "source": "ri.solution-design.main.node.custom.0269d48d-4eb7-4116-a887-3592b8fcc5d0",
+      "target": "ri.solution-design.main.node.custom.c829a70d-6f53-4ce1-8769-e565bbc3d8ed"
+    },
+    {
+      "id": "ri.solution-design.main.edge.standard.d0725cdf-2459-49b9-8386-c857dbbb3af4",
+      "zIndex": 1,
+      "data": {
+        "label": "Build status",
+        "edgeSetters": {}
+      },
+      "source": "ri.solution-design.main.node.custom.4a2e7356-244e-4b80-b873-29490db42fa8",
+      "target": "ri.solution-design.main.node.custom.c829a70d-6f53-4ce1-8769-e565bbc3d8ed"
+    }
+  ]
+}
