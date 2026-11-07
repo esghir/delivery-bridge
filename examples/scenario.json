@@ -1,0 +1,54 @@
+{
+  "synthetic": true,
+  "scenario": "Fictional request planning; the test scenario is reviewed but not yet executed.",
+  "request": {
+    "id": "REQ-DEMO-001",
+    "title": "Inventory dashboard",
+    "status": "Testing",
+    "delivery_revision": 1,
+    "assignee_id": "PERSON-DEMO-001",
+    "referent_id": "PERSON-DEMO-002",
+    "cycle_id": "CYCLE-DEMO-001",
+    "remaining_hours": 24
+  },
+  "cycle": {
+    "id": "CYCLE-DEMO-001",
+    "start_date": "2030-01-07",
+    "end_date": "2030-01-27"
+  },
+  "capacity": [
+    {
+      "person_id": "PERSON-DEMO-001",
+      "cycle_id": "CYCLE-DEMO-001",
+      "available_hours": 80
+    }
+  ],
+  "other_selected_work_remaining_hours": 32,
+  "acceptance_criteria": [
+    {
+      "id": "AC-DEMO-001",
+      "request_id": "REQ-DEMO-001",
+      "description": "Filtering by warehouse shows only matching inventory."
+    }
+  ],
+  "test_scenarios": [
+    {
+      "id": "TEST-DEMO-001",
+      "request_id": "REQ-DEMO-001",
+      "criterion_ids": [
+        "AC-DEMO-001"
+      ],
+      "review_status": "approved",
+      "required": true
+    }
+  ],
+  "test_executions": [],
+  "business_accepted": false,
+  "expected": {
+    "cycle_workload_hours": 56,
+    "capacity_utilization_percent": 70,
+    "criterion_coverage_percent": 100,
+    "test_pass_rate": null,
+    "can_complete": false
+  }
+}
